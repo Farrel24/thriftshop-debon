@@ -1,0 +1,72 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  height: auto;
+  max-width: 768px;
+  overflow: hidden;
+}
+
+.about-image {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+  margin: 50px 50px 10px 50px;
+  width: 60%;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 75%;
+}
+
+.about-title {
+  padding: 10px;
+  text-align: justify;
+}
+
+.about-profile {
+  padding-left: 60px;
+}
+.github {
+  display: flex;
+  gap: 5px;
+}
+
+.location {
+  display: flex;
+  gap: 5px;
+}
+
+.university {
+  display: flex;
+  gap: 5px;
+}
+
+.instagram {
+  display: flex;
+  gap: 5px;
+}
+
+@media screen and (max-width: 620px) {
+  .about {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .profile {
+    border-right: none;
+    flex-direction: row;
+  }
+}
